@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #000;
+  font-size: large;
+  color: #fff;
+  float: left;
+  width: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  background-color: #000;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+  font-weight: bold;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #1e8714;
+  animation-name: change-color;
+  animation-duration: 0.5s;
+}
+
+@keyframes change-color {
+  from {
+    background-color: #000;
+  }
+  to {
+    background-color: #1e8714;
+  }
+}
